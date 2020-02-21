@@ -10,6 +10,17 @@ namespace T_Peoples.Interfaces
     {
         List<FuncionariosDomain> Listar();
 
-      
+        void Cadastrar(FuncionariosDomain funcionario);
+
+        FuncionariosDomain BuscarPorId(int id);
+
+        void AtualizarIdCorpo(FuncionariosDomain funcionario);
+
+        void Deletar(int id);
+
+        void AtualizarIdUrl(int id, FuncionariosDomain funcionario);
+
+
     }
+
 }

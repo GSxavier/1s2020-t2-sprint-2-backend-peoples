@@ -7,7 +7,7 @@ namespace T_Peoples.Domains
 {
     public class FuncionariosDomain
     {
-        public int IdFuncionario{ get; set; }
+        public int IdFuncionarios{ get; set; }
 
         public string Nome { get; set; }
 
